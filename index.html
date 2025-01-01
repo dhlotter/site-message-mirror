@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Mirror - SMS & Call Log Backup</title>
+    <style>
+        :root {
+            --primary-color: #FF9900; /* Amazon Orange */
+            --secondary-color: #232F3E; /* Amazon Dark Blue */
+            --text-color: #333333; /* Dark Gray */
+            --bg-color: #FFFFFF; /* White */
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: rgb(37, 47, 61); /* Amazon Background Color */
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: white; /* Change to white for better visibility */
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #f8f9fa; /* Change to a lighter gray for better visibility */
+            margin-bottom: 2rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+        .feature {
+            padding: 1.5rem;
+            border-radius: 8px;
+            background: #f8f9fa;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #e68a00;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+        footer a {
+            color: rgb(242, 111, 32); /* Highlight color for links */
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Message Mirror</h1>
+            <p>Seamlessly backup your SMS messages to Gmail and call logs to Calendar</p>
+            <a href="#" class="cta-button" style="background: rgb(242, 111, 32); color: white;">Download Now</a>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <h3>SMS Backup</h3>
+                <p>Automatically backup your SMS messages to your Gmail account, keeping them safe and searchable.</p>
+            </div>
+            <div class="feature">
+                <h3>Call Log Backup</h3>
+                <p>Save your call history directly to your calendar with detailed timestamps and contact information.</p>
+            </div>
+            <div class="feature">
+                <h3>Secure & Private</h3>
+                <p>Your data is handled securely using Google's official APIs with modern security standards.</p>
+            </div>
+        </div>
+    </div>
+    <footer style="background: rgb(37, 47, 61); color: white;">
+        <p>&copy; 2024 Message Mirror. <a href="privacy.html" style="color: rgb(242, 111, 32);">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
